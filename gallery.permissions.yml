@@ -1,0 +1,22 @@
+add photo gallery entities:
+  title: 'Create new Photo gallery entities'
+
+administer photo gallery entities:
+  title: 'Administer Photo gallery entities'
+  description: 'Allow to access the administration form to configure Photo gallery entities.'
+  restrict access: true
+
+delete photo gallery entities:
+  title: 'Delete Photo gallery entities'
+
+edit photo gallery entities:
+  title: 'Edit Photo gallery entities'
+
+access photo gallery overview:
+  title: 'Access the Photo gallery overview page'
+
+view published photo gallery entities:
+  title: 'View published Photo gallery entities'
+
+view unpublished photo gallery entities:
+  title: 'View unpublished Photo gallery entities'

@@ -1,0 +1,14 @@
+
+# Photo gallery menu items definition
+entity.photo_gallery.collection:
+  title: 'Photo gallery list'
+  route_name: entity.photo_gallery.collection
+  description: 'List Photo gallery entities'
+  parent: system.admin_structure
+  weight: 100
+
+photo_gallery.admin.structure.settings:
+  title: Photo gallery settings
+  description: 'Configure Photo gallery entities'
+  route_name: photo_gallery.settings
+  parent: system.admin_structure

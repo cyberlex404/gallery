@@ -1,0 +1,22 @@
+# Photo gallery routing definition
+photo_gallery.settings_tab:
+  route_name: photo_gallery.settings
+  title: 'Settings'
+  base_route: photo_gallery.settings
+
+entity.photo_gallery.canonical:
+  route_name: entity.photo_gallery.canonical
+  base_route: entity.photo_gallery.canonical
+  title: 'View'
+
+entity.photo_gallery.edit_form:
+  route_name: entity.photo_gallery.edit_form
+  base_route: entity.photo_gallery.canonical
+  title: 'Edit'
+
+entity.photo_gallery.delete_form:
+  route_name:  entity.photo_gallery.delete_form
+  base_route:  entity.photo_gallery.canonical
+  title: Delete
+  weight: 10
+

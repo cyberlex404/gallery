@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains gallery.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function gallery_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the gallery module.
+    case 'help.page.gallery':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Photo gallery') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function gallery_theme() {
+  return [
+    'gallery' => [
+      'template' => 'gallery',
+      'render element' => 'children',
+    ],
+  ];
+}

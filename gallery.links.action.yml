@@ -1,0 +1,5 @@
+entity.photo_gallery.add_form:
+  route_name: entity.photo_gallery.add_form
+  title: 'Add Photo gallery'
+  appears_on:
+    - entity.photo_gallery.collection
