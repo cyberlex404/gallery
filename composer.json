@@ -1,14 +1,14 @@
 {
-  "name": "drupal/gallery",
+  "name": "cyberlex404/gallery",
   "type": "drupal-module",
   "description": "Photo gallery",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
-  "homepage": "https://www.drupal.org/project/gallery",
+  "homepage": "https://github.com/cyberlex404/gallery",
   "minimum-stability": "dev",
   "support": {
-    "issues": "https://www.drupal.org/project/issues/gallery",
-    "source": "http://cgit.drupalcode.org/gallery"
+    "issues": "https://github.com/cyberlex404/gallery/issues",
+    "source": "https://github.com/cyberlex404/gallery"
   },
   "require": { }
 }
