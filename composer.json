@@ -1,6 +1,6 @@
 {
   "name": "cyberlex404/gallery",
-  "type": "drupal-module",
+  "type": "drupal-module-custom",
   "description": "Photo gallery",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",

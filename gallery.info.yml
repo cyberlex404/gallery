@@ -3,3 +3,9 @@ type: module
 description: Photo gallery
 core: 8.x
 package: Content
+
+dependencies:
+- views:views
+
+recommends:
+- webform:webform
